@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   "homepage": "https://github.com/finn-vgtl/svelte-transitions#readme",
   "dependencies": {
     "svelte": "^3.42.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
   }
 }
