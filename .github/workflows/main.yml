@@ -18,10 +18,10 @@ jobs:
       - uses: actions/setup-node@v2
 
       - name: install dependencies
-      run: npm ci
+        run: npm ci
 
       - name: run test suite
-      run: npm test
+        run: npm test
 
   release:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
