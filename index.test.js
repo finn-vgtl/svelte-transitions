@@ -20,7 +20,13 @@ describe('default svelte transitions', () => {
 })
   
 describe('custom transitions', () => {
-  test('exports grow()', () => {
-    expect.anything(index.grow)
-  })
+  const FNS = [
+    'grow'
+  ]
+
+  FNS.forEach(FN => {
+    test(`exports ${FN}()`, () => {
+      expect.anything(index[FN])
+    })
+  });
 })
