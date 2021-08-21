@@ -12,6 +12,9 @@
   "release": {
     "branches": ["main"]
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "jest"
   },
