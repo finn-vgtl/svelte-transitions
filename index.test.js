@@ -18,7 +18,7 @@ describe('default svelte transitions', () => {
     })
   });
 })
-  
+
 describe('custom transitions', () => {
   const FNS = [
     'grow'

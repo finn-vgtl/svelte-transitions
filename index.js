@@ -1,8 +1,9 @@
 const EASING = require('svelte/easing')
 const TRANSITIONS = require('svelte/transition')
 
-function grow(node, { duration = 100, percentage = .1 }) {
+function grow(node, { delay = 0, duration = 100, percentage = .1 }) {
   return {
+    delay,
     duration,
     css: (t) => {
       const EASE = EASING.circOut(t)
