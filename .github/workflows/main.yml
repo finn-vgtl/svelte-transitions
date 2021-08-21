@@ -34,9 +34,6 @@ jobs:
       - name: install dependencies
         run: npm ci
 
-      - name: run test suite
-        run: npm run test
-
       - name: version and release
         run: npx semantic-release 
         env: 
