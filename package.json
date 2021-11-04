@@ -55,7 +55,7 @@
   },
   "homepage": "https://github.com/finn-vgtl/svelte-transitions#readme",
   "dependencies": {
-    "svelte": "^3.42.1"
+    "svelte": "^3.44.1"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
