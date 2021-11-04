@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/finn-vgtl/svelte-transitions/compare/v1.6.0...v1.6.1) (2021-11-04)
+
+
+### Bug Fixes
+
+* :bug: insertRule error fix ([139568e](https://github.com/finn-vgtl/svelte-transitions/commit/139568ecc2ab82c33738a9857add25b66984fb6a))
+
 # [1.6.0](https://github.com/finn-vgtl/svelte-transitions/compare/v1.5.0...v1.6.0) (2021-09-09)
 
 
